@@ -15,6 +15,7 @@ function ProductCard({ product, onClick }) {
           objectFit: "contain",
           display: "block",
           margin: "auto",
+          cursor: "pointer",
         }}
         alt="Product Image"
       />
