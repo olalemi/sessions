@@ -3,11 +3,11 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import SearchField from "../ui/SearchField";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { styled } from "@mui/material/styles";
+import useFiltersContext from "../../hooks/useFiltersContext";
 import CategorySelect from "../ui/CategorySelect";
+import { styled } from "@mui/material/styles";
 import { Button } from "@mui/material";
 import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
-import useFiltersContext from "../../hooks/useFiltersContext";
 
 const Header = ({ isNavBarAtTop }) => {
   const CustomAppBar = styled(AppBar)(({ theme }) => ({
